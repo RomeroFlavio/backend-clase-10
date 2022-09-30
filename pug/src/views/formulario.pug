@@ -1,0 +1,9 @@
+extends layout
+block formulario
+    div
+        form(action="/productos" method="POST" enctype="multipart/form-data")
+            <input type="text" name="title" id="title" /> <br/>
+            <input type="number" name="price" id="price" /> <br/>
+            <input type="file" name="myfile" id="myfile" /> <br/>
+            <input type="submit" value="Enviar" />
+        <a href="/productos">Ir a productos</a>

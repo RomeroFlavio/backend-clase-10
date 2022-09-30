@@ -1,0 +1,13 @@
+table
+    tr
+        th ID
+        th Title
+        th Price
+        th Thumbnail
+            each product in arrayProducts.length ? arrayProducts : message
+                tr
+                    td= product.id
+                    td= product.title
+                    td= product.price
+                    td: img(src=product.thumbnail, alt=product.title width="50")
+        <a href="/">Volver al formulario</a>
