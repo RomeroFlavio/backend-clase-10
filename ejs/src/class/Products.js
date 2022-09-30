@@ -55,6 +55,6 @@ class Products {
 }
 
 const products = new Products();
-products.addProdutcs({title:'El Hobbit',price:500,thumbnail:'public/uploads/1664033438168.jpg'})
+products.addProdutcs({title:'Medias',price:500,thumbnail:'public/uploads/medias.jpeg'})
 
 module.exports = products;
