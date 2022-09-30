@@ -55,6 +55,6 @@ class Products {
 }
 
 const products = new Products();
-products.addProdutcs({title:'Medias',price:500,thumbnail:'public/uploads/medias.jpeg'})
+products.addProdutcs({title:'Medias ',price:500,thumbnail:'public/uploads/medias.jpeg'})
 
 module.exports = products;
